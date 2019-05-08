@@ -14,7 +14,7 @@ const IndexPage = () => (
 			<br />
 			Prototype and build apps with React and Swift.
 		</p>
-		<Link to="/page-2/">Go to page 2</Link>
+		<Link to="/page-2/">Watch the Video</Link>
 	</Layout>
 )
 
