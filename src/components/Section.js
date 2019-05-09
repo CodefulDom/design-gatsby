@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const SectionGroup = styled.div`
-  background: black;
+  background: url(${props => props.image});
   height: 720px;
 `
 
