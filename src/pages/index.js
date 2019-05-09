@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
+import Card from "../components/Card"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -85,6 +86,14 @@ const IndexPage = () => (
             />
           </path>
         </svg>
+      </div>
+      <div className="Cards">
+        <h2>11 courses, and more coming</h2>
+        <Card
+          title="React for Designers"
+          text="12 sections"
+          image={require("../images/wallpaper.jpg")}
+        />
       </div>
     </div>
   </Layout>
