@@ -1,0 +1,25 @@
+import React from "react"
+import styled from "styled-components"
+
+const SectionGroup = styled.div`
+  background: black;
+  height: 720px;
+`
+
+const SectionLogo = styled.img``
+
+const SectionTitleGroup = styled.div``
+
+const SectionTitle = styled.h3``
+const SectionText = styled.p``
+
+const Section = props => (
+  <SectionGroup image={props.image}>
+    <SectionLogo src={props.logo} />
+    <SectionTitleGroup>
+      <SectionTitle>{props.title}</SectionTitle>
+      <SectionTitle>{props.title}</SectionTitle>
+    </SectionTitleGroup>
+  </SectionGroup>
+)
+export default Section
