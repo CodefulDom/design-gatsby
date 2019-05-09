@@ -18,7 +18,9 @@ const SectionLogo = styled.img`
 
 const SectionTitleGroup = styled.div``
 
-const SectionTitle = styled.h3``
+const SectionTitle = styled.h3`
+  color: white;
+`
 const SectionText = styled.p``
 
 const Section = props => (
