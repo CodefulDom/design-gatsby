@@ -27,7 +27,9 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="Header">
+      <div
+        className={this.state.hasScrolled ? "Header HeaderScrolled" : "Header"}
+      >
         <div className="HeaderGroup">
           <Link to="/">
             <img
