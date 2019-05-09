@@ -9,11 +9,14 @@ const IndexPage = () => (
 		<Header />
 		<div className="Hero">
 			<div className="HeroGroup">
-				<h1>Learn to design and code React apps</h1>
+				<h1>
+					Learn to <br /> design and code React apps
+				</h1>
 				<p>
 					Complete Courses about the best tools and design systems.
 					<br />
-					Prototype and build apps with React and Swift.
+					Prototype and build apps with <br />
+					React and Swift.
 				</p>
 				<Link to="/page-2/">Watch the Video</Link>
 			</div>
