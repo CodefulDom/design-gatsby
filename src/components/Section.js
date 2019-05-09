@@ -10,7 +10,11 @@ const SectionGroup = styled.div`
   height: 720px;
 `
 
-const SectionLogo = styled.img``
+const SectionLogo = styled.img`
+  align-self: end;
+  width: 128px;
+  ,argin: 0 auto;
+`
 
 const SectionTitleGroup = styled.div``
 
