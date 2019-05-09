@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Card from "../components/Card"
 import Section from "../components/Section"
 import Wave from "../components/Wave"
+import staticData from "../../staticData.json"
 
 const IndexPage = () => (
   <Layout>
@@ -88,6 +89,9 @@ const IndexPage = () => (
         title="React for Designers"
         text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify."
       />
+      {staticData.cells.map(cell => (
+        <div>{cell.title}</div>
+      ))}
     </div>
   </Layout>
 )
