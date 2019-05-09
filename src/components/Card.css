@@ -13,3 +13,10 @@
   height: 110%;
   z-index: -1;
 }
+
+.Card h3 {
+  color: white;
+  font-size: 30px;
+  margin: 20px 0 0 20px;
+  width: 190px;
+}
