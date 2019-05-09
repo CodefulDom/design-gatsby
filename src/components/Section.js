@@ -18,7 +18,7 @@ const Section = props => (
     <SectionLogo src={props.logo} />
     <SectionTitleGroup>
       <SectionTitle>{props.title}</SectionTitle>
-      <SectionTitle>{props.title}</SectionTitle>
+      <SectionText>{props.title}</SectionText>
     </SectionTitleGroup>
   </SectionGroup>
 )
